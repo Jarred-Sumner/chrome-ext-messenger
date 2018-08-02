@@ -1,5 +1,5 @@
 "use strict";
-require("webextension-polyfill");
+const browser = require("webextension-polyfill");
 const Utils = require("./utils.js");
 const Constants = require("./constants.js");
 

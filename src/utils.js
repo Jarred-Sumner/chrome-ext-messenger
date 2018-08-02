@@ -1,7 +1,7 @@
 "use strict";
 
 const Logdown = require("logdown");
-require("webextension-polyfill");
+const browser = require("webextension-polyfill");
 const Constants = require("./constants.js");
 
 // NOTE: Until https://github.com/caiogondim/logdown.js/issues/82 is implemented.

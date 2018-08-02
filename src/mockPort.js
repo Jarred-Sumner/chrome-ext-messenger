@@ -1,4 +1,4 @@
-require("webextension-polyfill");
+const browser = require("webextension-polyfill");
 const Utils = require("./utils.js");
 
 const MockPort = function(options) {
