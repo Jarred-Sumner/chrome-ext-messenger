@@ -33,6 +33,7 @@
     "webpack": "^1.14.0"
   },
   "dependencies": {
-    "logdown": "^2.0.3"
+    "logdown": "^2.0.3",
+    "webextension-polyfill": "^0.3.0"
   }
 }
